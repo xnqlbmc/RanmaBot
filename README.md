@@ -1,10 +1,25 @@
-<h1 align="center">
-## Ranma Bot' 🩷
-</h1>
+# Ranma Bot' 🩷
 
 <img src="https://xatimg.com/image/J5ODgCTXWhPu.png" />
-## Instalação Via Termux  <img src="https://user-images.githubusercontent.com/108157095/182052725-6568419a-6a9f-490a-85ea-90b94af694fe.png" height="25px">
-**1° Comando**
+
+Olá! Este bot tem o foco principal de que seus comandos sejam rodados localmente, ou seja, apenas na sua máquina, além de ser meu primeiro projeto publicamente!
+
+> [!IMPORTANT]
+> O bot ainda está em desenvolvimento, ou seja, pode haver bugs e falhas, além de não ter todas as funções.
+
+---
+## Guias de instalação
+- [💻 - Instalação via Windows]()
+- [Instalação Via Termux/Linux](#instalacao-via-termuxlinux)
+
+---
+
+## 💻 - Instalação via Windows
+
+---
+
+## 📱- Instalação Via Termux/Linux
+**Essenciais**
 ```
 apt-get update -y && pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install tesseract -y && pkg install git -y
 ```
