@@ -1,8 +1,8 @@
 {
-  "name": "bot-zero",
+  "name": "Ranma-bot",
   "version": "0.0.1",
   "description": "🤖 Bot personalizado usando Baileys",
-  "author": "tedzinho",
+  "author": "xnqlb",
   "license": "MIT",
   "main": "connect.js",
   "scripts": {
@@ -16,7 +16,8 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.18",
+    "@google/genai": "^1.24.0",
+    "@whiskeysockets/baileys": "^7.x.x",
     "axios": "^1.11.0",
     "chalk": "^4.1.2",
     "multer": "^2.0.2",
