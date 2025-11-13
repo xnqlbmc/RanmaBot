@@ -17,7 +17,7 @@ Olá! Este bot tem o foco principal de que seus comandos sejam rodados localment
 ## 💻 - Instalação via Windows
 **Essenciais**
 ```
-winget install nodejs ffmpeg wget tesseract git yt-dlp
+winget install nodejs ffmpeg wget Tesseract.Tesseract.Stable Git.Git yt-dlp
 ```
 ---
 
