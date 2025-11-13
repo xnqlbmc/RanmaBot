@@ -15,32 +15,34 @@ Olá! Este bot tem o foco principal de que seus comandos sejam rodados localment
 ---
 
 ## 💻 - Instalação via Windows
-
+**Essenciais**
+```
+winget install nodejs ffmpeg wget tesseract git yt-dlp
+```
 ---
 
 ## 📱- Instalação Via Termux/Linux
 **Essenciais**
 ```
-apt-get update -y && pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install tesseract -y && pkg install git -y
+apt-get update -y && pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install tesseract -y && pkg install git -y && pkg install yt-dlp -y
 ```
 **ATENÇÃO:**
-Será necessário digitar y toda vez que pedir a caixa [y/n]
----------------------------
+Será necessário digitar "y" toda vez que pedir a caixa [y/n]
 
-**2° Comando**
+**Permissão do Termux para ler os arquivos:**
 ```
 termux-setup-storage
 ```
-**3° Comando**
+**Criar a pasta do bot:**
 ```
-cd /sdcard/Download && git clone https://github.com/Tedzinho/bot-zero
+cd /sdcard/Download && git clone https://github.com/xnqlbmc/RanmaBot
 ```
-**4° Comando**
+**Iniciar o bot:**
 ```
-cd /sdcard/Download/bot-zero && npm start
+cd /sdcard/Download/RanmaBot && npm start
 ```
 
-## 💾 START DO BOT 💾 <img src="https://user-images.githubusercontent.com/108157095/182053901-78e4a217-51ba-42a3-8ec5-38ed978ad752.png" height="25px">
+## 💾 START DO BOT 💾 
 ```
 npm start
 ```
