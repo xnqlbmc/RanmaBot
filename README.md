@@ -19,6 +19,19 @@ Olá! Este bot tem o foco principal de que seus comandos sejam rodados localment
 ```
 winget install nodejs ffmpeg wget Tesseract.Tesseract.Stable Git.Git yt-dlp
 ```
+**Criar a pasta do bot:**
+```
+git clone https://github.com/xnqlbmc/RanmaBot
+```
+**Iniciar o bot:**
+```
+cd RanmaBot && npm start
+```
+
+## 💾 START DO BOT 💾 
+```
+npm start
+```
 ---
 
 ## 📱- Instalação Via Termux/Linux
