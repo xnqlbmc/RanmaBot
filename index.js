@@ -53,7 +53,7 @@ const globalConfig = {
 
 const botStart = Date.now(); 
 const groupState = new Map();
-const comandos2 = ["ping", "status", "antilinkhard", "antilinkgp", "ban", "welcome", "menu", "stats", "backup", "play", "play2", "playvid", "playvidhd", "downloadvid", "downloadmp3", "sticker", "s", "gemini"]; // lista oficial de comandos
+const comandos2 = ["ping", "status", "antilinkhard", "antilinkgp", "ban", "welcome", "menu", "stats", "backup", "play", "play2", "playvid", "playvidhd", "downloadvid", "downloadmp3", "sticker", "s", "gemini", "add"]; // lista oficial de comandos
 
 // Inicializar gerenciador de grupos
 const groupManager = new GroupManager();
@@ -1382,5 +1382,6 @@ module.exports = async function (events, sock) {
 setInterval(() => {
   groupManager.cleanOldData();
 }, 24 * 60 * 60 * 1000);
+
 
 
