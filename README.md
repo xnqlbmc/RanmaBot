@@ -10,7 +10,7 @@ Olá! Este bot tem o foco principal de que seus comandos sejam rodados localment
 ---
 ## Guias de instalação
 - [💻 - Instalação via Windows](#---instalação-via-windows)
-- [Instalação Via Termux/Linux](#---instalacao-via-termuxlinux)
+- [📱- Instalação Via Termux/Linux](#--instalação-via-termuxlinux)
 
 ---
 
