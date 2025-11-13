@@ -1274,7 +1274,7 @@ case "menu": {
 ⚙️ *${config.prefix}sticker* ou *${config.prefix}s* → Transforma imagem/vídeo em figurinha`;
 
     return sock.sendMessage(from, {
-        image: { url: 'https://files.catbox.moe/5rbtyz.jpg' },
+        image: { url: 'https://xatimg.com/image/J5ODgCTXWhPu.png' },
         caption: helpText,
         quoted: msg
     });
@@ -1382,4 +1382,5 @@ module.exports = async function (events, sock) {
 setInterval(() => {
   groupManager.cleanOldData();
 }, 24 * 60 * 60 * 1000);
+
 
